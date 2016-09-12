@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources  xmlns:tools="http://schemas.android.com/tools"
+  tools:ignore="MissingTranslation">
+    <string name="window_icon" translatable="false">Window icon</string>
+    <string name="hide" translatable="false">Hide</string>
+    <string name="close" translatable="false">Close</string>
+    <string name="corner" translatable="false">Corner</string>
+    <string name="maximize" translatable="false">Maximize</string>
+    <string name="app_name" translatable="false">Browser Window</string>
+    <string name="click_to_restore" translatable="false"></string>
+</resources>

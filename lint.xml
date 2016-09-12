@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="DefaultLocale" severity="ignore" />
+    <issue id="NewApi" severity="ignore">
+        <ignore path="src\com\threemdev\browserwindow\Browser.java" />
+        <ignore path="src\com\threemdev\browserwindow\ChatHeadsService.java" />
+        <ignore path="src\com\threemdev\browserwindow\Main.java" />
+        <ignore path="src\com\threemdev\popupbrowser\Browser.java" />
+        <ignore path="src\com\threemdev\popupbrowser\Main.java" />
+    </issue>
+</lint>

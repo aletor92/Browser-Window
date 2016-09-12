@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="icon">false</item>
+    <item type="id" name="description">false</item>
+    <item type="id" name="rel">false</item>
+    <item type="id" name="webView1">false</item>
+    <item type="id" name="layotuUrl">false</item>
+    <item type="id" name="progressBar1">false</item>
+    <item type="id" name="back">false</item>
+    <item type="id" name="next">false</item>
+    <item type="id" name="editText1">false</item>
+    <item type="id" name="refresh">false</item>
+    <item type="id" name="videoView1">false</item>
+    <item type="id" name="content">false</item>
+    <item type="id" name="titlebar">false</item>
+    <item type="id" name="window_icon">false</item>
+    <item type="id" name="title">false</item>
+    <item type="id" name="hide">false</item>
+    <item type="id" name="maximize">false</item>
+    <item type="id" name="close">false</item>
+    <item type="id" name="body">false</item>
+    <item type="id" name="corner">false</item>
+</resources>

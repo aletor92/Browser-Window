@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/content" android:background="@drawable/border" android:layout_width="200.0dip" android:layout_height="200.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/titlebar" android:background="#fff0f0f0" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="34.0dip" android:layout_alignParentTop="true">
+        <ImageView android:id="@id/window_icon" android:layout_width="32.0dip" android:layout_height="32.0dip" android:contentDescription="@string/window_icon" />
+
+        <TextView
+            android:id="@id/title"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4.0dip"
+            android:layout_weight="1.0"
+            android:maxLines="1"
+            android:text="Title"
+            android:textColor="#0f3551"
+            android:textSize="20.0sp" />
+
+        <ImageView android:id="@id/hide" android:background="@drawable/hide" android:layout_width="32.0dip" android:layout_height="32.0dip" android:contentDescription="@string/hide" />
+        <ImageView android:id="@id/maximize" android:background="@drawable/myresize" android:layout_width="32.0dip" android:layout_height="32.0dip" android:contentDescription="@string/maximize" />
+        <ImageView android:id="@id/close" android:background="@drawable/myclose" android:layout_width="32.0dip" android:layout_height="32.0dip" android:contentDescription="@string/close" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/body" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/titlebar" />
+    <ImageView android:id="@id/corner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mycorner" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:contentDescription="@string/corner" />
+</RelativeLayout>
